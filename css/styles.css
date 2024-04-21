@@ -7,8 +7,18 @@ a{
     text-decoration: none;
     font-style: normal;
 }
+img{
+    display: block;
+}
 .header {
         background: #fff;
+        border-bottom: 1px solid #e7e9fc;
+}
+.container {
+display: flex;
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -18,15 +28,25 @@ a{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .text-color {
     color: #2e2f42;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+}
+.menu-nav {
+    display: flex;
+    align-items: center;
 }
 .menu-link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -34,6 +54,10 @@ color: #404bbf;
 }
 .address {
     font-style: normal;
+}
+.contacts-item {
+    display: flex;
+    gap: 40px;
 }
 .contacts-link {
     line-height: 1.5;
@@ -47,6 +71,7 @@ color: #404bbf;
 .section {
         background-color: #2e2f42;
         text-align: center;
+        padding: 188px 0;
 }
 .hero {
     font-family: "Roboto", sans-serif;
@@ -56,6 +81,7 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
 }
 .button {
     font-family: "Roboto", sans-serif;
@@ -66,6 +92,11 @@ color: #404bbf;
         color: #fff;
         background-color: #4d5ae5;
         cursor: pointer;
+        display: flex;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
 }
 .button:hover,
 .button:focus {
