@@ -72,9 +72,11 @@ color: #404bbf;
 .contacts-link:focus {
     color: #404bbf;
 }
+.section-one {
+    padding-top: 188px;
+        padding-bottom: 188px;
+}
 .section {
-padding-top: 188px;
-padding-bottom: 188px;
 padding: 120px 0 120px 0;
         background-color: #2e2f42;
         text-align: center;
@@ -127,7 +129,7 @@ position: absolute;
     gap: 24px;
 }
 .table {
-  width: calc((100% - 3 * 24px) / 4);
+flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .description {
     font-weight: 500;
@@ -165,7 +167,7 @@ position: absolute;
 }
 .team_card {
     background-color: #ffffff;
-   flex-basis: calc((100% - 3 * 24px) / 4);
+flex-basis: calc((100% - 72px) / 4);
 border-radius: 0 0 4px 4px;
 }
 .worker {
