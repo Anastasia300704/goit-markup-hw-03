@@ -124,8 +124,6 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
-    margin-bottom: 8px;
 }
 .comment {
     font-weight: 400;
@@ -155,10 +153,17 @@ color: #404bbf;
 .card-container {
     padding: 32px 0;
 }
-.team-card {
+.teamcard {
     background-color: #ffffff;
     width: ((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+}
+.zah {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.ab {
+    text-align: center;
 }
 .our-portfolio {
     font-size: 36px;
