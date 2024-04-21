@@ -76,6 +76,10 @@ color: #404bbf;
         background-color: #2e2f42;
         text-align: center;
         padding: 188px 0;
+            background-color: #F4F4FD;
+                padding: 120px 0;
+                    padding-top: 120px;
+                        padding-bottom: 120px;
 }
 .hero {
     font-family: "Roboto", sans-serif;
@@ -106,10 +110,6 @@ color: #404bbf;
 .button:focus {
  background-color: #404bbf;
 }
-.sections {
-    background-color: #F4F4FD;
-    padding: 120px 0;
-}
 .feature {
     display: flex;
     gap: 24px;
@@ -133,9 +133,7 @@ color: #404bbf;
     color: #434455;
     text-align: center;
 }
-.section_ {
-    padding: 120px 0;
-}
+
 .our-team {
     margin-bottom: 72px;
     font-weight: 700;
@@ -165,10 +163,7 @@ color: #404bbf;
 .ab {
     text-align: center;
 }
-.sectionti {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 .our-portfolio {
     font-size: 36px;
     line-height: 1.11;
