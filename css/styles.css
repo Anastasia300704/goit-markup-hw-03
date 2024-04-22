@@ -166,10 +166,6 @@ flex-basis: calc((100% - 3 * 24px) / 4)
     text-transform: capitalize;
     color: #2e2f42;
 }
-.card {
-    display: flex;
-    gap: 24px;
-}
 .card-container {
     padding-top: 32px;
     padding-bottom: 32px;
