@@ -140,7 +140,7 @@ position: absolute;
         gap: 24px;
 }
 .table {
-flex-basis: calc((100% - 3 * 24px) / 4);
+width: calc((100% - 72px) / 4);
 background-color: #ffffff;
     border-radius: 0 0 4px 4px;
     margin-right: 24px 0;
