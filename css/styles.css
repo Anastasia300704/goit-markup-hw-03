@@ -1,13 +1,13 @@
-body{
+body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
 }
-a{
+a {
     text-decoration: none;
     font-style: normal;
 }
-img{
+img {
     display: block;
 }
 ul {
@@ -19,11 +19,13 @@ ul {
 }
 .container-one {
     display: flex;
-    width: 1158px;
 }
 .container {
-margin: 0 auto;
-    padding: 0 15px;
+max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo {
     font-family: "Raleway", sans-serif;
