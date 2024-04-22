@@ -19,11 +19,11 @@ ul {
 }
 .container-one {
     display: flex;
-width: 1158px;
-padding: 0 15px;
+    width: 1158px;
 }
 .container {
 margin: 0 auto;
+    padding: 0 15px;
 }
 .logo {
     font-family: "Raleway", sans-serif;
